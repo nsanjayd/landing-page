@@ -1,30 +1,138 @@
 body {
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .header {
     display: flex;
+    justify-content: space-around;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
 }
 
 .top-block {
-    display: flex
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: #1F2937;
+    gap: 20px;
+    padding: 20px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.awesome-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.beech {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px;
 }
 
 .images-block {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    gap: 20px;
+    /* border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 10px;
+    height: auto; */
+}
+
+/* img {
+    size: 200px;
+    display: flex;
+    flex-shrink: 1;
+} */
+
+a {
+    text-decoration: none;
 }
 
 .quote-block {
     display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+
+.source {
+    align-self: stretch;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .sign-up-block {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    
+    padding: 20px;
+}
+
+.inner-block {
+    display: flex;
+    background-color: #3882F6;
+    padding: 20px;
+    gap: 20px;
 }
 
 .footer {
     display: flex;
+    justify-content: center;
+    color:#F9FAF8;
+    font-size: 16px;
 }
 
 .awesome {
